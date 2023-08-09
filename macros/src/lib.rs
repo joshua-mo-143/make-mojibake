@@ -3,7 +3,7 @@ use quote::{quote, quote_spanned};
 use syn::{
     parse::{Parse, ParseStream, Result},
     parse_macro_input,
-    Data, DeriveInput, Ident, ItemFn,
+    Data, DeriveInput, Ident,
     token,
     parenthesized,
     LitInt

@@ -1,5 +1,5 @@
 [workspace]
 members = [
   "macros",
-  "pkg"
+  "make-mojibake"
 ]

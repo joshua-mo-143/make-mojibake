@@ -32,10 +32,13 @@ fn main() {
 
 The field to output your mojibake will always be `struct.<field_name>_to_mojibake()` for ease of use.
 
-## To do
+This crate currently only supports `SHIFT_JIS` at the moment but it is planned for this to be expanded upon.
+
+## Roadmap
 - All other types of encoding
 - Make a macro to turn simple variables into mojibake
 - Figure out how to stop u8 overflow buffer errors
+- Unicode points
 
 ## Contributions
 All contributions are welcome! Feel free to open issues for things that are wrong or could use improving, as well as any PRs if you would like to improve the crate.
